@@ -1138,7 +1138,7 @@ function loadNews(){
                     articles
                 })
             },
-            timeout: 7500
+            timeout: 925000
         }).catch(err => {
             resolve({
                 articles: null
