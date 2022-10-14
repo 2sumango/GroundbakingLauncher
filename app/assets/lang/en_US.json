@@ -16,7 +16,7 @@
                     "desc": "The email or password you've entered is incorrect. Please try again."
                 },
                 "rateLimit": {
-                    "title": "Error During Login:<br>Too Many Attempts",
+                    "title": "Error During Login:<br>Rate Limit",
                     "desc": "There have been too many login attempts with this account recently. Please try again later."
                 },
                 "noInternet": {
@@ -35,14 +35,14 @@
                     "title": "Error During Login:<br>Unknown Error"
                 }
             },
-            "login": "LOGIN",
-            "loggingIn": "LOGGING IN",
-            "success": "SUCCESS",
-            "tryAgain": "Try Again"
+            "login": "login",
+            "loggingIn": "logging in...",
+            "success": "auth successful",
+            "tryAgain": "try again"
         },
         "landing": {
             "launch": {
-                "pleaseWait": "Please wait.."
+                "pleaseWait": "please wait.."
             }
         }
     }
